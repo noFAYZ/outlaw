@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x1f31E21B2495634834e81fD1957E1eDae8C7b2D4",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x1f31E21B2495634834e81fD1957E1eDae8C7b2D4",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "SimpsPunks",
+  "SYMBOL": "SP",
+  "MAX_SUPPLY": 7777,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 3000000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/simpspunks-v3",
+  "SHOW_BACKGROUND": false
+}

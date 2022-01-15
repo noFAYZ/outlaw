@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/config/theme.css" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Faizan Asad" />
+    <title>Trippy Lions Club</title>
+    <link
+      rel="icon"
+      href="./assets/images/favicon.png"
+      type="image/png"
+    />
+    <link
+      href="./assets/css/style.min.css"
+      rel="stylesheet"
+    />
+   
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://www.taksi.nl/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+      id="jquery-js"
+    ></script>
+      <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+       <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      id="jquery-js"
+    ></script>
+           <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      id="owl"
+    ></script>
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+
+
+
+    <style>
+      .scicons{
+        position: fixed;
+        width: 70px;
+        margin-top: 20%;
+        transition: all 0.3s linear;
+        box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+        z-index:9999;
+      }
+      .scicons li{
+        height: 60px;
+        position:relative;
+      }
+      .scicons li a{
+        color: white;
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 60px;
+        padding-left:25%;
+        border-bottom: 1px solid rgba(0,0,0,.4);
+        transition: all .3s linear;
+      }
+      .scicons li:nth-child(1) a{
+        background: #4267B2;
+      }
+      .scicons li:nth-child(2) a{
+        background: #1DA1F2;
+      }
+      .scicons li:nth-child(3) a{
+        background: #E1306C;
+      }
+      .scicons li:nth-child(4) a{
+        background: #2867B2;
+      }
+      .scicons li:nth-child(5) a{
+        background: #333;
+      }
+      .scicons li:nth-child(6) a{
+        background: #ff0000;
+      }
+      .scicons li a i{
+        position:absolute;
+        top: 17px;
+        left: 20px;
+        font-size: 27px;
+      }
+      .scicons ul li a span{
+        display: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .scicons a:hover {
+        z-index:1;
+        width: 200px;
+      }
+      .scicons ul li:hover a span{
+        padding-left: 30%;
+        display: block;
+      }
+      
+      
+      
+      
+      
+      .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 250px;
+        height: auto;
+        font-size: 50px;
+        
+      }
+      
+      .glide__arrow {
+        color: #000;
+        background: #fff;
+      }
+      
+      
+      
+      @media (max-width: 690px){
+      .content-video-container{
+          margin-top:130px;
+      }
+      }
+      
+      </style>
+      
+      <div class="scicons">
+               <ul>
+                  <li><a href="https://discord.gg/PwQqYnh8"><i class="fab fa-discord"></i><span>Discord</span></a></li>
+                  <li><a href="twitter.com/trippylionsclub"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                  <li><a href="https://instagram.com/trippylionsclub"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            
+               </ul>
+            </div>
+            
+          <navigation class="navigation">
+            <div class="navigation__close js-menu"></div>
+            <div class="navigation__container">
+              <ul class="navigation__list">
+                <li
+                  class="navigation__item navigation__item--active navigation__item--5"
+                >
+                  <a href="#" class="navigation__link" data-id="5"
+                    >Home</a
+                  >
+                </li>
+                <li class="navigation__item navigation__item--11">
+                  <a
+                    href="#about"
+                    class="navigation__link"
+                    data-id="11"
+                    >About</a
+                  >
+                </li>
+                <li class="navigation__item navigation__item--377">
+                  <a
+                    href="#roadmap"
+                    class="navigation__link"
+                    data-id="377"
+                    >Roadmap</a
+                  >
+                </li>
+                <li class="navigation__item navigation__item--9">
+                  <a
+                    href="#faq"
+                    class="navigation__link"
+                    data-id="9"
+                    >FAQ</a
+                  >
+                </li>
+               
+              </ul>
+             
+            </div>
+            <div class="navigation__background"></div>
+          </navigation>
+          <a href="#" class="logo"></a>
+          <div class="menu-button js-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="menu">Menu</div>
+          </div>
+          <header class="hero">
+            <div class="hero__background"></div>
+            <div class="hero__caption">
+              <div class="hero__stack-wrapper">
+                <div class="hero__stack">
+                  <img
+                    width="100%"
+                    height="100%"
+                    src="./assets/images/tripbgbig.png"
+                  
+                    alt=""
+                    loading="lazy"
+                   
+                  />
+                     
+                </div>
+              </div>
+              <div class="hero__bottom">
+                <div class="hero__text">
+                  <h1>Trippy Lions Club</h1>
+                  <a
+                    href="#"
+                    class="button"
+                    target=""
+                  >
+                    <span></span>
+                    <span></span>
+                    <span>Coming Soon</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="eyes">
+              <div class="eye">
+                <div class="eye__big"></div>
+                <div class="eye__iris js-eye">
+                  <div class="eye__pupil"></div>
+                </div>
+              </div>
+              <div class="eye">
+                <div class="eye__big"></div>
+                <div class="eye__iris js-eye">
+                  <div class="eye__pupil"></div>
+                </div>
+              </div>
+            </div>
+            <div class="hand"></div>
+          </header>
+          <div id="root"></div>
+
+
+
+          <section class="mask" data-color="blue" data-animate-scroll id="about">
+            <div class="leaf-left"></div>
+            <div class="leaf-right"></div>
+            <div class="liana-left"></div>
+            <div class="liana-right"></div>
+            <div class="ant"></div>
+            <div class="wurm"></div>
+            <div class="butterfly"></div>
+            <div class="mask__tabs">
+              <div
+                class="mask__tab tab__link active"
+                onclick="openTab(event, 'tab-6')"
+              >
+                ABOUT:
+              </div>
+              <div class="mask__tab tab__link" onclick="openTab(event, 'tab-7')">
+                THE SPECS:
+              </div>
+            
+            </div>
+            <div class="mask__container tabcontent active text-center" id="tab-6">
+              <h4 style="padding: 2rem;">
+                Trippy Lions Club is a collection of 5,555 Trippy NFTs—unique digital collectibles living on the Ethereum blockchain. Your Trippy Lion value increases as your Trippy Club membership card grants access to members only activities and perks that can be unlocked by the community through roadmap activation.  
+      
+              </h4>
+            </div>
+            <div class="mask__container tabcontent text-center" id="tab-7">
+              <h4 style="padding: 2rem;">
+              Each Trippy Lion is unique and programmatically generated from over 40 possible traits, including expressions, headwear, clothing, and much more. All lions are fire, but some are rarer than others.
+            <br>
+              The lions are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Purchasing a Trippy Lion costs 0.1 ETH.  
+            </h4>
+            </div>
+        
+          </section>
+      
+          <section class="content content--shadow">
+            <div
+              class="content__image waving"
+              style="
+                background-image: url(./assets/images/palm2.jpg);
+              "
+            ></div>
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-12 col-md-6 offset-md-0 col-lg-6 offset-lg-1 text-center"
+                >
+                  <div class="invisible" data-animate-scroll>
+                    <h1>WELCOME TO THE JUNGLE! </h1>
+                    <div class="lead">
+                      <p>
+                        When you buy a Trippy Lion, you’re not simply buying an NFT or a rare piece of art. You are also gaining membership access to a club whose benefits and offerings will increase over time. Your Trippy Lion can serve as your digital identity, and open digital doors for you.
+      
+                      </p>
+                      
+                    </div>
+                    <a
+                      href="#"
+                      class="button"
+                      target=""
+                    >
+                      <span></span>
+                      <span></span>
+                      <span>Coming Soon</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 content-video-container">
+                  <div
+                   
+                   
+                  >
+                   <img src="./assets/images/21.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+      
+      
+        <!---FAQ SECTION-->
+      <!---
+        <section class="content content--large" id="faq">
+        <div class="container">
+      
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                      <div class="owl-carousel">
+        
+            <div><img src="assets/images/5.png"></div>
+            <div><img src="assets/images/2661.png"></div>
+            <div ><img src="assets/images/3070.png"></div>
+            <div><img src="assets/images/3272.png"></div>
+            <div><img src="assets/images/5336.png"></div>
+            <div ><img src="assets/images/5526.png"></div>
+            <div ><img src="assets/images/5.png"></div>
+            <div><img src="assets/images/5.png"></div>
+          
+        </div>
+      
+      </div>    
+                              
+                 </div>
+            </div>
+      
+      
+      
+        </section>
+      
+      -->
+      
+          <!---ROADMAP-->
+      
+          <section class="content content--large" id="roadmap">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1">
+          
+                          <div class="about">
+                    <div class="about__top">
+                      <div class="row">
+                        <div class="col-12 col-sm-6 offset-sm-3">
+                          <div class="about__box about__box--1">
+                            <h3>ROADMAP</h3>
+                            <p>We have so much planned for the Trippy Lions Club NFT holders!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="eyes">
+                        <div class="eye">
+                          <div class="eye__big"></div>
+                          <div class="eye__iris js-eye">
+                            <div class="eye__pupil"></div>
+                          </div>
+                        </div>
+                        <div class="eye">
+                          <div class="eye__big"></div>
+                          <div class="eye__iris js-eye">
+                            <div class="eye__pupil"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="about__timeline">
+                      <div class="about__image about__image--timeline">
+                        <div class="monkey" data-animate-scroll></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-lg-10 offset-lg-1">
+                          <ul class="timeline">
+                            
+                            <li class="timeline__item">
+                              <div class="timeline__col">
+                                <div class="timeline__inner ">
+                                
+                                  <h4 class="timeline__title">25%</h4>
+                                  <p>2 ETH will be given away to 3 lucky Trippy holders. (1 ETH for biggest winner & 0.5 for 2 other winners).
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="timeline__col">
+                                <svg width="112" height="212" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="timeline__dot timeline__dot--start" d="M6.462 7.714c-1.556 1.529-2.54 3.597-2.497 6.016.04 2.194 1.077 4.201 2.393 5.937 1.88 2.477 3.916 4.366 7.177 4.747 5.254.613 9.448-3.87 10.17-8.7.448-2.993.143-6.478-2.268-8.729-1.575-1.47-3.602-2.245-5.7-2.487-2.862-.854-6.24-.023-8.369 2.128a8.682 8.682 0 00-.906 1.088z" stroke="#FFF" stroke-width="4" fill="#63B12E"/><path class="timeline__dot" d="M19.602 67.846c-5.972-8.664-12.246-21.063-5.225-31.544 10.676 4.176 5.452 18.097 8.747 26.873 1.512 3.78-1.665 2.322-3.522 4.67m14.891 34.307c-9.14-5.302-18.173-15.978-10.402-25.056 7.194 6.726 13.396 13.886 10.402 25.056m2.584 10.588c10.769-1.277 15.442 15.976 24.174 22.389l-1.635 3.851c-12.365-2.69-22.469-15.142-22.539-26.24M63.1 148.952c8.546-2.64 15.674 10.876 22.544 15.989l-2.315 5.453c-8.808-2.02-21.53-11.45-20.23-21.442m39.219 62.978l-2.56-1.087c-4.78-9.359-16.135-20.771-11.049-30.762 9.754 4.51 15.736 18.937 13.609 31.85" fill="#FEFEFE" opacity=".24"/></g></svg>                    </div>
+                              <div class="timeline__col"></div>
+                            </li>
+                            
+                            <li class="timeline__item">
+                              <div class="timeline__col">
+                                <div class="timeline__inner " >
+                                  
+                                  <h4 class="timeline__title">50%</h4>
+                                  <p>- 5 ETH will be given away to 5 Lucky Trippy Holders. (1 ETH for each winner).
+      
+                                    - 50 lucky holders will receive posters with their NFT on them, for them to show the world.
+                                    </p>
+                                </div>
+                              </div>
+                              <div class="timeline__col">
+                                <svg width="112" height="212" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="timeline__dot timeline__dot--start" d="M6.462 7.714c-1.556 1.529-2.54 3.597-2.497 6.016.04 2.194 1.077 4.201 2.393 5.937 1.88 2.477 3.916 4.366 7.177 4.747 5.254.613 9.448-3.87 10.17-8.7.448-2.993.143-6.478-2.268-8.729-1.575-1.47-3.602-2.245-5.7-2.487-2.862-.854-6.24-.023-8.369 2.128a8.682 8.682 0 00-.906 1.088z" stroke="#FFF" stroke-width="4" fill="#63B12E"/><path class="timeline__dot" d="M19.602 67.846c-5.972-8.664-12.246-21.063-5.225-31.544 10.676 4.176 5.452 18.097 8.747 26.873 1.512 3.78-1.665 2.322-3.522 4.67m14.891 34.307c-9.14-5.302-18.173-15.978-10.402-25.056 7.194 6.726 13.396 13.886 10.402 25.056m2.584 10.588c10.769-1.277 15.442 15.976 24.174 22.389l-1.635 3.851c-12.365-2.69-22.469-15.142-22.539-26.24M63.1 148.952c8.546-2.64 15.674 10.876 22.544 15.989l-2.315 5.453c-8.808-2.02-21.53-11.45-20.23-21.442m39.219 62.978l-2.56-1.087c-4.78-9.359-16.135-20.771-11.049-30.762 9.754 4.51 15.736 18.937 13.609 31.85" fill="#FEFEFE" opacity=".24"/></g></svg>                    </div>
+                              <div class="timeline__col"></div>
+                            </li>
+                            
+                            <li class="timeline__item">
+                              <div class="timeline__col">
+                                <div class="timeline__inner " >
+                            
+                                  <h4 class="timeline__title">75%</h4>
+                                  <p>-Trippy Lions merch store and NFT giveaway!
+      
+                                    -Work officially begins on the second collection, to further The Trippy Club storyline and brand.
+                                    </p>
+                                </div>
+                              </div>
+                              <div class="timeline__col">
+                                <svg width="112" height="212" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="timeline__dot timeline__dot--start" d="M6.462 7.714c-1.556 1.529-2.54 3.597-2.497 6.016.04 2.194 1.077 4.201 2.393 5.937 1.88 2.477 3.916 4.366 7.177 4.747 5.254.613 9.448-3.87 10.17-8.7.448-2.993.143-6.478-2.268-8.729-1.575-1.47-3.602-2.245-5.7-2.487-2.862-.854-6.24-.023-8.369 2.128a8.682 8.682 0 00-.906 1.088z" stroke="#FFF" stroke-width="4" fill="#63B12E"/><path class="timeline__dot" d="M19.602 67.846c-5.972-8.664-12.246-21.063-5.225-31.544 10.676 4.176 5.452 18.097 8.747 26.873 1.512 3.78-1.665 2.322-3.522 4.67m14.891 34.307c-9.14-5.302-18.173-15.978-10.402-25.056 7.194 6.726 13.396 13.886 10.402 25.056m2.584 10.588c10.769-1.277 15.442 15.976 24.174 22.389l-1.635 3.851c-12.365-2.69-22.469-15.142-22.539-26.24M63.1 148.952c8.546-2.64 15.674 10.876 22.544 15.989l-2.315 5.453c-8.808-2.02-21.53-11.45-20.23-21.442m39.219 62.978l-2.56-1.087c-4.78-9.359-16.135-20.771-11.049-30.762 9.754 4.51 15.736 18.937 13.609 31.85" fill="#FEFEFE" opacity=".24"/></g></svg>                    </div>
+                              <div class="timeline__col"></div>
+                            </li>
+                            
+                            <li class="timeline__item">
+                              <div class="timeline__col">
+                                <div class="timeline__inner " >
+                                
+                                  <h4 class="timeline__title">100%</h4>
+                                  <p>-Creation of private channel on discord for Trippy holders only.
+      
+                                    -Exclusive Trippy Lions holder party in the metaverse with live DJ and prizes!
+                                    </p>
+                                </div>
+                              </div>
+                              <div class="timeline__col">
+                                <svg width="112" height="212" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="timeline__dot timeline__dot--start" d="M6.462 7.714c-1.556 1.529-2.54 3.597-2.497 6.016.04 2.194 1.077 4.201 2.393 5.937 1.88 2.477 3.916 4.366 7.177 4.747 5.254.613 9.448-3.87 10.17-8.7.448-2.993.143-6.478-2.268-8.729-1.575-1.47-3.602-2.245-5.7-2.487-2.862-.854-6.24-.023-8.369 2.128a8.682 8.682 0 00-.906 1.088z" stroke="#FFF" stroke-width="4" fill="#63B12E"/><path class="timeline__dot" d="M19.602 67.846c-5.972-8.664-12.246-21.063-5.225-31.544 10.676 4.176 5.452 18.097 8.747 26.873 1.512 3.78-1.665 2.322-3.522 4.67m14.891 34.307c-9.14-5.302-18.173-15.978-10.402-25.056 7.194 6.726 13.396 13.886 10.402 25.056m2.584 10.588c10.769-1.277 15.442 15.976 24.174 22.389l-1.635 3.851c-12.365-2.69-22.469-15.142-22.539-26.24M63.1 148.952c8.546-2.64 15.674 10.876 22.544 15.989l-2.315 5.453c-8.808-2.02-21.53-11.45-20.23-21.442m39.219 62.978l-2.56-1.087c-4.78-9.359-16.135-20.771-11.049-30.762 9.754 4.51 15.736 18.937 13.609 31.85" fill="#FEFEFE" opacity=".24"/></g></svg>                    </div>
+                              <div class="timeline__col"></div>
+                            </li>
+                            
+                        
+                                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+          
+                </div>
+              </div>
+          
+            </div>
+          </section>
+      
+          <!---ROADMAP-->
+      
+      
+      
+      
+        <!---FAQ SECTION-->
+      
+        <section class="content content--large" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="faq__top">
+                        <h1 class="title">FAQs</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                                <div class="faq">
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>How can I buy a Trippy Lions NFT ?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>You will be able to purchase Trippy Lions NFT directly from the site during presale and minting phase and on OpenSea once the launch is active   </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>What blockchain with the Trippy Lions be minted on?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>Trippy Lions will be minted on ethereum blockchain  
+      
+      </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>Which wallet can i connect to mint?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>You can connect your metamask wallet to mint   </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>How to mint? </span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>Instructions to mint are provided in our discord at the following link  
+      
+                                      https://discord.gg/  
+                                      
+      </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>Will there be a pre-sale?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>Yes there will be a pre-sale dedicated to all selected whitelist members</p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>What is the minimum SPA?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>Our minimum price is 0.05 (50% of public price when live)   </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>Are there royalty fees?</span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>Yes, royalty fees are 3%  </p></div>
+                                </div>
+                                                    <div class="faq__item">
+                                    <div class="faq__question js-question">
+                                        <span class="faq__question-button">
+                                            <span>Where can I view my NFTS after minting? </span>
+                                        </span>
+                                        <span class="faq__icon"></span>
+                                    </div>
+                                    <div class="faq__answer js-answer"><p>NFTS will be revealed to your wallet once the NFT is public.
+                                    </p></div>
+                                </div>
+                             
+                                        </div>
+                            </div>
+            </div>
+      
+      <!---
+            <div class="row">
+                <div class="col-12">
+                    <div class="faq__bottom invisible" data-animate-scroll>
+                        <h3 class="title-space">What are you waiting for Mint Now?!</h3>
+                                                                    <a href="/contact/" class="button" target="">
+                                <span></span>
+                                <span></span>
+                                <span>Coming Soon</span>
+                            </a>
+                                        </div>
+                </div>
+                <div class="snake" data-animate-scroll></div>
+            </div>
+      -->
+        </div>
+      
+        </section>
+      
+        <!--FAQ SECTION-->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <a href="#" class="footer__logo"></a>
+                  <navigation class="footer__navigation">
+                    <ul class="footer__list">
+                      <li class="footer__item footer__item--20">
+                        <a
+                          href="#about"
+                          class="footer__link"
+                          data-id="20"
+                          >About</a
+                        >
+                      </li>
+                      <li class="footer__item footer__item--22">
+                        <a
+                          href="#roadmap"
+                          class="footer__link"
+                          data-id="22"
+                          >Roadmap</a
+                        >
+                      </li>
+                      <li class="footer__item footer__item--24">
+                        <a
+                          href="#faq"
+                          class="footer__link"
+                          data-id="24"
+                          >FAQs</a
+                        >
+                      </li>
+                    </ul>
+                  </navigation>
+                  <div class="footer__copyright">
+                    <p>
+                      © Trippy Lions Club. Designed by Faizan. All rights reserved.
+                    </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </footer>
+            <!-- Social Icons -->
+       
+      <script>
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          responsiveClass:true,
+              autoplayTimeout:1000,
+      
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:3,
+                  nav:false
+              },
+              1000:{
+                  items:4,
+                  nav:true,
+                  loop:false
+              }
+          }
+      })
+
+      </script>
+          <script src="./assets/js/scripts.min.js"></script>
+          <script>
+            var current = new Date();
+             var expiry = new Date("January 18, 2022 00:00:00")
+             if(current.getTime()< expiry.getTime()){ document.getElementById('root').style.display = 'none';
+             }
+           </script>      
+
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+
+
+  </body>
+</html>
