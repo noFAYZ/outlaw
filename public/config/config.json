@@ -6,9 +6,9 @@
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "SimpsPunks",
-  "SYMBOL": "SP",
-  "MAX_SUPPLY": 7777,
+  "NFT_NAME": "TRIPPY LIONS",
+  "SYMBOL": "TLC",
+  "MAX_SUPPLY": 5555,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 3000000,
